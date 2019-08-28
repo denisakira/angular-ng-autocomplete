@@ -30,7 +30,7 @@ const isTab = keyCode => keyCode === 9;
 @Component({
   selector: 'ng-autocomplete',
   templateUrl: './autocomplete.component.html',
-  styleUrls: ['./autocomplete.component.scss'],
+  styleUrls: ['./autocomplete.component.scss', './bootstrap.css'],
   providers: [
     {
       provide: NG_VALUE_ACCESSOR,

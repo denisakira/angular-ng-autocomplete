@@ -6,29 +6,10 @@ $width: 600px;
 }
 
 .autocomplete-container {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
   position: relative;
   overflow: visible;
-  height: 40px;
 
   .input-container {
-    input {
-      font-size: 14px;
-      box-sizing: border-box;
-      border: none;
-      box-shadow: none;
-      outline: none;
-      background-color: #FFFFFF;
-      color: rgba(0, 0, 0, 0.87);
-      width: 100%;
-      padding: 0 15px;
-      line-height: 40px;
-      height: 40px;
-      &:disabled {
-        background-color: #eee;
-        color: #666;
-      }
-    }
     .x {
       position: absolute;
       right: 10px;
